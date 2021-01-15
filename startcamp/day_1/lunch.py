@@ -1,0 +1,10 @@
+import random
+
+# list(리스트)
+stores = ['새마을식당', '리춘시장', '스타벅스']
+print(stores)
+print(stores[1])
+
+# random 모듈 및 함수 사용
+pick = random.sample(stores, 1)
+print(pick)
